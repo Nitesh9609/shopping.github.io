@@ -1,0 +1,221 @@
+body{
+    margin: 0;
+    font-family: system-ui;
+}
+
+.parallex,.parallex1{
+    background-image: url(https://assets.telegraphindia.com/telegraph/75806dfd-8ac7-4887-a066-17d39104cf1f.jpg);
+    height:max-content;
+    background-attachment:fixed;
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size: cover;
+}
+
+.page-title{
+    background:rgba(0,0,0,0.5);
+    text-align:center;
+    color:white;
+    padding:50px;
+    font-variant:small-caps;
+    font-size:100px ;
+    font-family:fantasy;
+    letter-spacing:20px ;
+}
+
+
+.sticky{
+    position: fixed;
+    top:0;
+    width:100%;
+}
+
+
+.menu{
+    background:steelblue; 
+    text-align:center;
+}
+
+.menu-ul{
+    margin:0;
+    padding: 0;
+    display:inline;
+}
+
+
+.menu-ul li{
+    font-size: 17px;
+    list-style:none;
+    display: inline-block;
+    padding: 25px 25px 26px 25px;
+}
+
+
+.a-menu, .a-links{
+    text-decoration:none;
+    color:white;
+}
+
+.menu-ul li:hover{
+    background-color:lightseagreen;
+    transform: scale(1.1);
+}
+
+
+.search-box{
+    border: 1px solid white;
+    border-radius: 50px;
+    background: white;
+    width:max-content;
+    display: inline-block;
+    margin: 8px;
+}
+
+.search-box:hover{
+    box-shadow: 0 0 10px 2px steelblue;
+    border:1px solid steelblue;
+}
+.search-input{
+    width: 250px;
+    border: none;
+    font-size: 16px;
+    outline:none;
+    margin:15px 0 0 10px;
+    background:transparent;
+}
+
+i{
+    font-size: 30px;
+    margin:0 10px 0 0 ;
+
+}
+
+button{
+    background: transparent;
+    border: none;
+    outline: none;
+}
+
+
+.container, .offer-container{
+    margin: 50px 50px 50px 5%;
+    width:90%;
+    text-align: center;
+}
+
+.categories{
+    width:max-content;
+    border:3px solid steelblue;
+    margin:25px;
+    border-radius: 50px 50px 50px 50px;
+    display: inline-block;
+}
+
+.categories:hover{
+    box-shadow:0 0 10px 3px steelblue;
+}
+
+
+.items-image{
+    height:200px;
+    width:200px;
+    border-radius: 50px 50px 50px 50px;
+    padding:10px;
+}
+
+.image-title{
+    text-align: center;
+    padding:10px;
+    font-weight:bold;
+}
+
+a{
+    text-decoration: none;
+}
+
+.title{
+    padding:50px;
+    font-size:50px;
+    font-weight:bold;
+    letter-spacing:10px;
+    color:white;
+    background:rgba(0,0,0,0.5) ;
+    
+}
+
+.offer{
+    padding:50px;
+    font-size:20px;
+    font-weight:bold;
+    color:white;
+    display:inline-block;
+    margin:20px;
+    max-width:20%;
+    background:steelblue;
+    
+}
+.Groceries{
+    padding:50px;
+    font-size:20px;
+    font-weight:bold;
+    color:white;
+    display:inline-block;
+    margin:20px;
+    max-width:20%;
+    background:steelblue;
+}
+.coupon-btn{
+    border:1px solid white;
+    color:white;
+    margin:10px;
+    padding:10px;
+    border-radius:20px;
+    
+}
+
+.coupon-btn:hover{
+    color:skyblue;
+    background:mediumpurple;
+}
+
+
+ .item, .images{
+    display:inline-block;  
+}
+
+.item-image-size{
+    height: 200px;
+    width: 200px;
+    padding:5px;
+}
+
+.description{
+    margin:20px;
+    height:10px;     
+}
+
+
+.item-select{
+    margin:10px 10px 0 0 ;
+}
+
+.buynow-btn{
+    border:1px solid steelblue;
+    background:steelblue;
+    padding:5px 15px;
+    border-radius:20px;
+    font-weight: bold;
+    margin-top:10px;
+    color:white;
+}
+
+.buynow-btn:hover{
+    border:3px solid lightblue;
+}
+   
+footer {
+    text-align: center;
+    padding: 3px;
+    background-color: DarkSalmon;
+    color: white;
+  }

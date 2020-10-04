@@ -1,0 +1,81 @@
+
+
+<html>
+    <head>
+<meta name="viewport" content="width=device-width, initial-scale=0">
+<title> Login Page </title>
+<div class="topnav" id="myTopnav">
+  <a href="index.html" >Home</a>
+  <a href="log.html">Login</a>
+  <a href="contact.html">Contact Us</a>
+  <a href="aboutus.html">About</a>
+  <a href="register.html" class="current">Signup</a>
+
+</div>
+<style> 
+Body {
+  font-family: Calibri, Helvetica, sans-serif;
+  background-color: white;
+}
+.topnav a{
+  text-decoration:none;
+  color:white;
+  padding:20px;
+  background-color: black;
+}
+button { 
+       background-color:darkblue; 
+       width: 100%;
+        color: white; 
+        padding: 15px; 
+        margin: 10px 0px; 
+        border: none; 
+        cursor: pointer;
+    border-radius: 15px;
+         } 
+ form { 
+        border: 3px solid #f1f1f1; 
+    } 
+ input[type=text], input[type=password] { 
+        width: 100%; 
+        margin: 8px 0;
+        padding: 12px 20px; 
+        display: inline-block; 
+        border: 3px solid  lightgreen; 
+        box-sizing: border-box; 
+        border-radius: 15px;
+    }
+ button:hover { 
+        opacity: 0.7;
+     
+    } 
+  .cancelbtn { 
+        width: auto; 
+        padding: 10px 18px;
+        margin: 10px 5px;
+       border-radius: 15px;
+    } 
+      
+   
+ .container { 
+        padding: 25px; 
+        background-color: lightgreen;
+    } 
+</style> 
+</head>  
+<body>  
+    <center> <h1>  Login Form </h1> </center> 
+    <form>
+        <div class="container"> 
+            <label>Username : </label> 
+            <input type="text" placeholder="Enter Username" name="username" required>
+            <label>Password : </label> 
+            <input type="password" placeholder="Enter Password" name="password" required>
+            <button type="submit">Login</button> 
+            <input type="checkbox" checked="checked"> Remember me 
+            <button type="button" class="cancelbtn"> Cancel</button> 
+            Forgot <a href="#"> password? </a> 
+        </div> 
+    </form>   
+</body>   
+</html>

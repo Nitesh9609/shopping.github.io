@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<div class="topnav" id="myTopnav">
+  <a href="index.html" >Home</a>
+  <a href="log.html">Login</a>
+  <a href="contact.html">Contact Us</a>
+  <a href="aboutus.html">About</a>
+  <a href="register.html" class="current">Signup</a>
+
+</div>
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+.topnav a{
+  text-decoration:none;
+  color:white;
+  padding-top:50px;
+  padding-left:20px;
+  background-color: black;
+}
+
+.column {
+  float: left;
+  width: 50%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+}
+
+.about-section {
+  padding: 50px;
+  text-align: center;
+  background-color: #BC8F8F;
+  color: white;
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="about-section">
+  <h1>About Us </h1>
+  <p>Shopemart is a team of clever creatives, sharp marketers.</p>
+  <p> we working together to create amazing site and make sure the world sees it.</p>
+</div>
+
+<h2 style="text-align:center">Our Team</h2>
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <img src="himanshu.jpg" alt="Jane" style="width:650px;height:500px">
+      <div class="container">
+        <h2>Himanshu Saharan</h2>
+        <p class="title">CEO & Founder</p>
+        <p>Himanshu has worked at the intersection of politics, economics, and journalism, where he’s covered local, state, and national politics for two Texas publications and economic news at a network in New Jersey and served as a policy analyst in Texas’ State Capitol. Above all, he enjoys learning new things every day and writing clear, interesting content.</p>
+        <p>himanshusaharan486@gmail.com</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img src="https://vignette.wikia.nocookie.net/suits/images/c/c2/Mike_Ross_%285x7%29.png/revision/latest/top-crop/width/720/height/900?cb=20190903001426" alt="Mike" style="width:650px;height:500px">
+      <div class="container">
+        <h2>Mike Ross</h2>
+        <p class="title">Art Director</p>
+        <p>"My whole life I have wanted to be a lawyer so that I could help people like Clifford Danner. People who have no one else to fight for them. No one who believes in them.</p>
+        <p>mike@example.com</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+  
+  
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
